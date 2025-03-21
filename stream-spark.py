@@ -52,4 +52,4 @@ st.header("spark-submit results")
 url_results=  st.text_input('URL results', value='https://raw.githubusercontent.com/Amorale05/gitLabs/refs/heads/main/results/data.json')
 
 if st.button("GET spark results"):
-    get_spark_results(url_results)import streamlit as st
+    get_spark_results(url_results)
